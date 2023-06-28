@@ -5,12 +5,14 @@ import ScreenWrapper from '../Components/ScreenWrapper'
 
 import { vh, vw } from '../Utils/units'
 import FlatListComp from '../Components/FlatListComp'
+import Header from '../Components/Header'
 
 const HomeScreen = () => {
 
 
     return (
         <ScreenWrapper>
+            <Header />
             <StoriesList />
             <FlatListComp />
         </ScreenWrapper>
