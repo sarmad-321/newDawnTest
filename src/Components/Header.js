@@ -103,6 +103,6 @@ const styles = StyleSheet.create({
     count: {
         fontSize: vh * 1.2,
         fontWeight: "bold",
-
+        color: "white"
     }
 })
