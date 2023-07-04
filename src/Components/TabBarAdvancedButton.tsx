@@ -3,7 +3,7 @@ import { StyleSheet, TouchableOpacity, View, Image } from 'react-native';
 import { BottomTabBarButtonProps } from '@react-navigation/bottom-tabs/lib/typescript/src/types';
 import { TabBg } from './TabBg';
 import LinearGradient from 'react-native-linear-gradient';
-import { icons } from '../Assets';
+import { icons } from '../assets';
 import { vh } from '../Utils/units';
 import { Circle } from 'react-native-svg';
 
